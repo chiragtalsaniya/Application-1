@@ -50,22 +50,22 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onStart() {
-        Log.d("LifeCycle_MainActivity", "onStart")
+       
         super.onStart()
     }
 
     override fun onPause() {
-        Log.i("LifeCycle_MainActivity", "onPause")
+        
         super.onPause()
     }
 
     override fun onResume() {
-        Log.w("LifeCycle_MainActivity", "onResume")
+      
         super.onResume()
     }
 
     override fun onStop() {
-        Log.d("LifeCycle_MainActivity", "onStop")
+      
         super.onStop()
     }
 
