@@ -29,6 +29,9 @@ class MainActivity : AppCompatActivity() {
 
         addButton.setOnClickListener {
             Log.d("MainActivity", "Add Button Clicked")
+            Log.d("MainActivity", "Add Button Clicked")
+            Log.d("MainActivity", "Add Button Clicked")
+            Log.d("MainActivity", "Add Button Clicked")
 
             val num1 = editText.text.toString().toInt()
             val num2 = editText2.text.toString().toInt()
